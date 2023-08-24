@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --main-bg-color: rgba(18, 117, 255, 0.705);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* .rung{
+    background-color: rgb(255, 145, 145);
+} */
+footer {
+    height: 12vh;
+    background: var(--main-bg-color);
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue';
+}
+
+header {
+    font-family: 'Bebas Neue';
+    background: var(--main-bg-color);
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px 25px;
+}
+.slider{
+    margin: 10px;
+    width: 96vw;
+    overflow: hidden;
+}
+.card{
+    /* background-color: aqua; */
+    max-width: 91vw;
+    margin: auto;
+}
+.cards{
+    /* display: flex; */
+    /* flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center;  */
+    overflow: hidden;
+}
+.card p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    margin: 0px 2px;
+}
+.card-item{
+    width: 16vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    /* color: rgb(69, 13, 13); */
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    height: 45px;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 35px;
+    margin: 0 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container {
+    min-height: calc(100vh - 60px - 12vh);
+}
+
+.btn img {
+    width: 50px;
+    height: 50px;
+    /* padding: 3px 15px; */
+    margin: -20px;
+    cursor: pointer;
+}
+.my-2{
+    margin: 20px 10px;
+    font-size: 15px;
+    font-family: math;
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+    margin: 5px;
+}
+.my-1{
+    margin: 6px 0px;
+}
